@@ -75,10 +75,16 @@ namespace intro_3
             }
 
         }
-        public void Uppgift_2B() { 
-        
-        
-        
+        public void Uppgift_2B() {
+            Random randomgenerator1 = new Random();
+            int antalTärningsögon1 = randomgenerator1.Next(1, 7);
+            Random randomgenerator2 = new Random();
+            int antalTärningsögon2 = randomgenerator2.Next(1, 7); 
+
+
+
+
+
         }
     }
 }
