@@ -47,7 +47,38 @@ namespace intro_3
         }
         public void Uppgift_1D()
         {
+            Console.WriteLine("Ange ett heltal: ");
+            // läs in tal som text
+            String tex1 = Console.ReadLine();
+            // omvandla text till heltal
+            int tal1 = Convert.ToInt32(tex1);
+            Console.WriteLine("Ange ett heltal till: ");
+            // läs in tal som text
+            String tex2 = Console.ReadLine();
+            // omvandla text till heltal
+            int tal2 = Convert.ToInt32(tex2);
+            int sum = tal1 + tal2;
+            Console.WriteLine("Summan av talen: " + sum);
+        }
 
+        public void Uppgift_2A() {
+            Console.WriteLine("Gissa mitt favorittal");
+            var text = Console.ReadLine();
+            double tal = Convert.ToDouble(text);
+            if (tal == 5)
+            {
+                Console.WriteLine("Du gissade rätt!");
+            }
+            else
+            {
+                Console.Write("Du gissade fel!");
+            }
+
+        }
+        public void Uppgift_2B() { 
+        
+        
+        
         }
     }
 }

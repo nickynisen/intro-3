@@ -3,4 +3,4 @@ using intro_3;
 
 
 Solution sol = new Solution();
-sol.Uppgift_1C();
+sol.Uppgift_2B();
