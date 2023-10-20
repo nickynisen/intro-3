@@ -79,12 +79,95 @@ namespace intro_3
             Random randomgenerator1 = new Random();
             int antalTärningsögon1 = randomgenerator1.Next(1, 7);
             Random randomgenerator2 = new Random();
-            int antalTärningsögon2 = randomgenerator2.Next(1, 7); 
+            int antalTärningsögon2 = randomgenerator2.Next(1, 7);
+            Console.WriteLine("Vill du spela tärning? Visar båda samma är det en vinst!");
+            var v = Console.ReadLine();
+            // || gör att man kan ange flera korrekta svar
+            if (v == "ja" || v == "Ja" || v == "JA")
+            {
+                Console.WriteLine("Tärningarna visar: " + antalTärningsögon1 + " och: " + antalTärningsögon2);
+                if (antalTärningsögon2 == antalTärningsögon1)
+                {
+                    Console.WriteLine("Du vann!");
+                }
+                else
+                {
+                    Console.WriteLine("Du förlorade!");
+                }
+
+
+
+            }
+            else
+            {
+                Console.WriteLine("Okay... Adios then!");
+            }
+
 
 
 
 
 
         }
+        public void Uppgift_3A()
+        {
+            int i = 1;
+            while (i < 6)
+            {
+                Console.WriteLine(i);
+                i++;
+            }
+
+
+
+        }
+        public void Uppgift_3B()
+        {
+
+
+
+            int i = 5;
+            while (i < 21)
+            {
+                Console.WriteLine(i);
+                i = i + 3;
+            }
+
+
+
+        }
+        public void Uppgift_3C()
+        {
+            int i = 10;
+            while (i > -1)
+            {
+                Console.WriteLine(i);
+                i = i - 1;
+            }
+
+        }
+        public void Uppgift_4A()
+        {
+            for (int i = 1; i < 6; i++)
+            {
+                Console.WriteLine(i);
+            }
+        }
+
+
+
+        public void Uppgift_4B()
+        {
+            for (int i = 5; i < 21; i = i + 3)
+            {
+                Console.WriteLine(i);
+            }
+
+
+
+
+
+        }
+
     }
 }
