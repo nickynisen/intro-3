@@ -34,3 +34,14 @@ google och fråga kompisar
 har använt Stackoverflow 
 
 har lärt mig while slingor och for slingor.
+-------------------------------------------------
+gjort klart alla uppgifter
+
+det gick bra
+
+hade svårt med sista men det funka
+
+googla och fråga kompisar
+
+har använt Stackoverflow 
+
